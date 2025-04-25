@@ -1,11 +1,11 @@
 @charset "utf-8";
 @font-face {
     font-family: fonte1;
-    src: url(assets/fonts/Espera-BoldItalic.ttf);
+    src: url(Challenge/assets/fonts/Espera-BoldItalic.ttf);
 }
 @font-face {
     font-family: fonte2;
-    src: url(assets/fonts/Blank\ River.ttf);
+    src: url(Challenge/assets/fonts/Blank\ River.ttf);
 }
 body{
     background-color: rgb(35, 35, 35);
