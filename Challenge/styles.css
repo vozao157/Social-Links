@@ -1,0 +1,123 @@
+@charset "utf-8";
+@font-face {
+    font-family: fonte1;
+    src: url(Espera-BoldItalic.ttf);
+}
+@font-face {
+    font-family: fonte2;
+    src: url(Blank\ River.ttf);
+}
+body{
+    background-color: rgb(35, 35, 35);
+}
+a{
+    color: rgb(115, 255, 0);
+    transition: font-size 0.1s ease-in-out;
+}
+
+#container{
+    border-image: round;
+    background-color: rgb(71, 71, 71);
+    padding: 20px;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+h2{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+    font-family: fonte1;
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+h3{
+    color: rgb(150, 255, 64);
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+    font-family: fonte1;
+    font-size: medium;
+    margin-top: 1px;
+    margin-bottom: 20px;
+}
+
+p{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 3px 5px black;
+    font-family: fonte1;
+    font-size: small;
+}
+
+ul{
+    text-shadow: 2px 3px 5px black;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1rem;
+    padding: 0;
+}
+
+button{
+    cursor: pointer;
+    background-color: rgb(148, 148, 148);
+    border: none;
+    border-radius: 5px;
+    min-height: 40px;
+    min-width: 250px;
+    box-shadow: 3px 5px 5px rgb(44, 44, 44);
+    font-family: fonte2;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 3px rgb(48, 48, 48);
+    color: white;
+}
+img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    order: -1;
+    transition: all 0.1s ease-in;
+}
+
+button:hover{
+    background-color: rgb(150, 255, 64);
+    border: none;
+    transform: scale(1.1);
+    transition: transform 0.1s ease-in-out;
+}
+
+h2:hover{
+    cursor: default;
+}
+
+h3:hover{
+    cursor: default;
+}
+
+p:hover{
+    cursor: default;
+}
+
+img:hover{
+    transform: scale(1.1);
+
+}
+a:hover{
+    font-size: larger;
+}
+
+.dev{
+    font-family: fonte1;
+    color: rgb(150, 255, 64);
+}
